@@ -1,0 +1,11 @@
+#include <stdio.h.>
+#include "cs50.h"
+int main(){
+  int num1;
+  int num2;
+  printf("enter a number: ");
+  scanf ("%i",&num1);
+  printf("enter another number: ");
+  scanf("%i",&num2);
+  printf("Result: %d\n",num1 + num2);
+
